@@ -520,11 +520,11 @@ function animate() {
             if (ghost.scared) {
                 ghosts.splice(i, 1)
             }
-            // else {
-            //     cancelAnimationFrame(animationId);
-            //     alert("Oh no... you lose");
-            //     window.location.reload();
-            // }
+            else {
+                cancelAnimationFrame(animationId);
+                alert("Oh no... you lose");
+                window.location.reload();
+            }
         }
     }
 
